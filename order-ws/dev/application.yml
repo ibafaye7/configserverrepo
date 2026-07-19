@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: ${DB_URL}
+    url: jdbc:postgresql://localhost:5432/order-ws-db
     username: ${DB_USER}
     password: ${DB_PWD}
   rabbitmq:
