@@ -3,19 +3,6 @@ spring:
     url: ${DB_URL}
     username: ${DB_USER}
     password: ${DB_PWD}
-  rabbitmq:
-    host: localhost
-    port: 5672
-    username: guest
-    password: guest
-  jpa:
-    show-sql: true
-    hibernate:
-      ddl-auto: update
-    database: postgresql
-    database-platform: org.hibernate.dialect.PostgreSQLDialect
-server:
-  port: 8083
 
 logging:
   level:
