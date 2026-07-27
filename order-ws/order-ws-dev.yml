@@ -8,7 +8,7 @@ logging:
   level:
     net.ifaye.ecommerce.order : TRACE
   file:
-    name: ${LOGS_PATH}/${spring.application.name}.log
+    name: logs/${spring.application.name}.log
   logback:
     rollingpolicy:
       max-file-size: 5MB #make log file rolling any time it reaches 5MB
