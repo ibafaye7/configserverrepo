@@ -2,11 +2,6 @@ spring:
   mongodb:
     uri: ${DB_URI}
     database: ${DB_INSTANCE}
-  rabbitmq:
-    host: localhost
-    port: 5672
-    username: guest
-    password: guest
 server:
   port: 8082
 
